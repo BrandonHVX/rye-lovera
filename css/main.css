@@ -3660,12 +3660,13 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
   position: relative;
   align-items: center;
   flex: 1 0 auto;
-  height: 100%;
-  margin-right: 15px;
+ 
+  
 }
 .logo__wrapper-img img {
   transition: all 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86);
   display: block;
+  height: 30px;
 }
 
 .logo__text-title {
@@ -6085,6 +6086,7 @@ select {
 @media screen and (max-width: 576px) {
   .slider__counter .swiper-container {
     height: 18px;
+    background-color: #000;
   }
   .slider__counter_current {
     font-size: 18px;
@@ -6192,6 +6194,7 @@ select {
  * ======================================================================!*/
 .slider-halfscreen-projects {
   height: 100%;
+  
 }
 
 .slider-halfscreen-projects_pt {
@@ -6215,6 +6218,7 @@ select {
   }
   .slider-halfscreen-projects__images {
     height: 100vh;
+   
   }
   .slider-halfscreen-projects__content {
     padding: var(--gutter-vertical) 0 !important;
@@ -6224,6 +6228,7 @@ select {
     left: 0;
     bottom: 0;
     right: 0;
+    
   }
   .slider-halfscreen-projects__col {
     position: static !important;
