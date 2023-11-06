@@ -3394,10 +3394,12 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 .lazy-bg {
   width: 100%;
   height: 100%;
+ 
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
-  background-color: rgba(136, 136, 136, 0.1);
+  mix-blend-mode: screen;
+  background-color: rgba(165, 19, 19, 0.1);
 }
 
 .lazy-bg_loaded {
@@ -4126,7 +4128,8 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 
 .overlay_circle-dark {
-  background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 90%, rgb(0, 0, 0) 100%);
+  background-image: radial-gradient(circle at center, rgba(0, 0, 0, 0.907) 0%, rgb(13, 121, 216) 90%, rgb(51, 17, 190) 100%);
+mix-blend-mode: multiply;
 }
 
 .overlay_circle-dark-70 {
@@ -5913,7 +5916,8 @@ select {
 }
 
 .slider__text {
-  max-width: 500px;
+  max-width: 400px;
+  word-wrap:normal;
 }
 
 [data-drag-cursor] .swiper-wrapper {
@@ -6221,12 +6225,12 @@ select {
    
   }
   .slider-halfscreen-projects__content {
-    padding: var(--gutter-vertical) 0 !important;
+    padding: 20px;
     max-width: calc(100% - var(--gutter-horizontal) * 4);
     margin-left: var(--gutter-horizontal);
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: 200px;
     right: 0;
     
   }
