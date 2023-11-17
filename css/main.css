@@ -5918,6 +5918,7 @@ select {
 .slider__text {
   max-width: 400px;
   word-wrap:normal;
+  
 }
 
 [data-drag-cursor] .swiper-wrapper {
