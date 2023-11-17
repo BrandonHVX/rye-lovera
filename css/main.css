@@ -128,7 +128,7 @@
  * ==========================================================================
  */
 
-:root {
+ :root {
   /* Fonts */
   --font-primary: "Raleway", sans-serif;
   --font-secondary: "Cinzel", serif;
@@ -3513,7 +3513,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 }
 
 .list-projects__cover {
-  display: none;
+  /* display: none; */
   flex: 1 0 50%;
 }
 .list-projects__cover > div {
@@ -6738,7 +6738,7 @@ h2, .h2 {
 }
 @media screen and (min-width: 320px) {
   h2, .h2 {
-    font-size: calc(var(--h2-min-font-size) * 1px + (var(--h2-max-font-size) - var(--h2-min-font-size)) * ((100vw - 320px) / 2240));
+    font-size: 32px;
   }
 }
 @media screen and (min-width: 2560px) {
