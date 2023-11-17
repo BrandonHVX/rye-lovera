@@ -4145,7 +4145,7 @@ mix-blend-mode: multiply;
 }
 
 .overlay_light {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(255, 255, 255, 0.84);
 }
 
 /*!========================================================================
@@ -6825,7 +6825,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   p {
-    font-size: calc(var(--paragraph-min-font-size) * 1px + (var(--paragraph-max-font-size) - var(--paragraph-min-font-size)) * ((100vw - 320px) / 2240));
+    font-size: calc(var(--paragraph-min-font-size) * 2px + (var(--paragraph-max-font-size) - var(--paragraph-min-font-size)) * ((100vw - 320px) / 2240));
   }
 }
 @media screen and (min-width: 2560px) {
