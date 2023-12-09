@@ -1829,7 +1829,6 @@ a:hover {
 
 .figure-post__content > *:first-child {
   margin-top: 0;
- 
 }
 .figure-post__content > *:last-child {
   margin-bottom: 0;
@@ -4146,7 +4145,7 @@ mix-blend-mode: multiply;
 }
 
 .overlay_light {
-  background-color: rgba(255, 255, 255, 0.84);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /*!========================================================================
@@ -5919,7 +5918,6 @@ select {
 .slider__text {
   max-width: 400px;
   word-wrap:normal;
-  
 }
 
 [data-drag-cursor] .swiper-wrapper {
@@ -6740,7 +6738,7 @@ h2, .h2 {
 }
 @media screen and (min-width: 320px) {
   h2, .h2 {
-    font-size: 32px;
+    font-size: calc(var(--h2-min-font-size) * 1px + (var(--h2-max-font-size) - var(--h2-min-font-size)) * ((100vw - 320px) / 2240));
   }
 }
 @media screen and (min-width: 2560px) {
@@ -6826,7 +6824,7 @@ p {
 }
 @media screen and (min-width: 320px) {
   p {
-    font-size: calc(var(--paragraph-min-font-size) * 2px + (var(--paragraph-max-font-size) - var(--paragraph-min-font-size)) * ((100vw - 320px) / 2240));
+    font-size: calc(var(--paragraph-min-font-size) * 1px + (var(--paragraph-max-font-size) - var(--paragraph-min-font-size)) * ((100vw - 320px) / 2240));
   }
 }
 @media screen and (min-width: 2560px) {
@@ -6939,12 +6937,12 @@ small, .small {
 .has-drop-cap:not(:focus):not(.has-drop-cap_split):first-letter {
   float: left;
   font-family: var(--font-secondary);
-  font-size: calc(var(--dropcap-min-font-size) * 8px);
+  font-size: calc(var(--dropcap-min-font-size) * 1px);
   color: var(--dropcap-color-dark);
   line-height: var(--dropcap-line-height);
   text-transform: uppercase;
   font-style: normal;
-  margin: 0.15em -0.0em 0 0;
+  margin: 0.15em 0.25em 0 0;
 }
 @media screen and (min-width: 320px) {
   .has-drop-cap:not(:focus):not(.has-drop-cap_split):first-letter {
