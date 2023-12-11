@@ -8,10 +8,25 @@ width: 50%;
 
 }
 
-.text-bold {
+/* .text-bold {
     font-weight: 900;
 }
 
 .text-white a li {
     color: #ffffff;
+} */
+
+
+.header-logo {
+    width: 70%;
+  align-items: center;
+   justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    mix-blend-mode: screen;
+  
+
 }
+
+
